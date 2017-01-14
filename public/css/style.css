@@ -1,0 +1,14 @@
+#page1{
+position:relative;
+margin:0 auto;
+width:700px;
+   border:1px solid blue;
+  background:gray;
+}
+.para{
+    color:darkblue;
+   font-size:2em;
+   padding:20px;
+   width:80%;
+   border:1px solid red;
+}

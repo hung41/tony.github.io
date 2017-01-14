@@ -1,0 +1,13 @@
+        
+{{#each partials.weatherContext.locations}}
+                      
+<div  style="border:1px solid red", class="inner root">
+
+  	<div data-role="footer" style="border:none; background:white">
+                      <p>${{name}}</p>
+                      <a class="ui-btn select">{{forecastUrl}}</a>
+                      <a class="ui-btn select">{{temp}}</a>
+ 	</div>
+</div>
+        
+{{/each}}

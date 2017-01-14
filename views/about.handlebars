@@ -1,0 +1,24 @@
+{{#section 'jqm'}}
+<link rel="stylesheet" href="/css/jqm-1.4.5.css" />
+<script src="/js/jquery-1.11.3.js"></script>
+<script src="/js/jqm-1.4.5.js"></script>
+{{/section}}
+
+{{#section 'panel'}}
+<div data-role="panel" id="panel2" data-display="overlay" data-position="right" data-dismissible="true" data-theme="b">
+        <ul data-role="listview" data-inset="">
+             <li style="text-align:center; data-role="list-divider">Books</li>
+                     <li><a href="/test" data-ajax="false"><h3>test page</h3></a></li>
+                     <li><a href="/video" data-ajax="false"><h3>video page</h3></a></li>
+             <li style="text-align:center; data-role="list-divider">Movie DVDS</li>
+                    <li><a href="/about" data-ajax="false"><h3>Action</h3></a></li>
+                    <li><a href="?type=comedy" data-ajax="false"><h3>Comedy</h3></a></li>
+             <li style="text-align:center; data-role="list-divider">Phones</li>
+                    <li><a href="?type=samsungs" data-ajax="false"><h3>Samsungs</h3></a></li>
+                   <li><a href="?type=iphones" data-ajax="false"><h3>iPhones</h3></a></li>
+       </ul>
+</div><!-- /panel -->
+{{/section}}
+
+       
+<p style="color:red; font-size:1.5em">{{fortune}}</p>
